@@ -1,0 +1,28 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# CMakefile
+*.cmake
+Makefile
+
+CMakeFiles/*
+CMakeCache.txt
+
+src/CMakeFiles/*
+sample/CMakeFiles/*
+
+# XCode
+*.xcuserdatad
+*.xcworkspace
+

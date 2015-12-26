@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source files\net">
+      <UniqueIdentifier>{88623c87-ef1f-4748-b107-cc4e7a6cb286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\util">
+      <UniqueIdentifier>{2df392da-440d-415f-a78c-64ba4ef0a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\qing">
+      <UniqueIdentifier>{47f9d15f-2dc3-437c-9ded-f92b64e66f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\qing\net">
+      <UniqueIdentifier>{a39e640c-b400-4ae4-a915-f296c3c8a336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\qing\util">
+      <UniqueIdentifier>{717fb37a-6768-4357-82bf-6f92c4dfdea1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\util\timer.cpp">
+      <Filter>source files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\logger.cpp">
+      <Filter>source files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\base64.cpp">
+      <Filter>source files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\time_engine.cpp">
+      <Filter>source files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\buffer.cpp">
+      <Filter>source files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\poller.cpp">
+      <Filter>source files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\tcp_client.cpp">
+      <Filter>source files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\tcp_socket.cpp">
+      <Filter>source files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\address.cpp">
+      <Filter>source files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\util.cpp">
+      <Filter>source files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\net\tcp_listener.cpp">
+      <Filter>source files\net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\qing\define.hpp">
+      <Filter>header files\qing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\util\timer.hpp">
+      <Filter>header files\qing\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\util\logger.hpp">
+      <Filter>header files\qing\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\util\base64.h">
+      <Filter>header files\qing\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\util\macros.h">
+      <Filter>header files\qing\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\util\time_engine.h">
+      <Filter>header files\qing\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\util\atomicops.h">
+      <Filter>header files\qing\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\util\readerwriterqueue.h">
+      <Filter>header files\qing\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\address.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\buffer.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\define.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\net.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\poller.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\tcp_client.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\tcp_socket.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\util.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\tcp_listener.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\qing\net\base_socket.hpp">
+      <Filter>header files\qing\net</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

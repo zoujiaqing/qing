@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "qing", "qing.cproj", "{423CB8B7-6147-4F71-AAB2-458FA3076E3D}"
+EndProject
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "TCPServer", "..\samples\TCPServer\TCPServer.cproj", "{B86057C4-262C-4979-A0A7-9B9D48AD1CF5}"
+EndProject
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "TCPClient", "..\samples\TCPClient\TCPClient.cproj", "{F90273F9-02B7-4777-872C-4B92A39C7FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{423CB8B7-6147-4F71-AAB2-458FA3076E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423CB8B7-6147-4F71-AAB2-458FA3076E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423CB8B7-6147-4F71-AAB2-458FA3076E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423CB8B7-6147-4F71-AAB2-458FA3076E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86057C4-262C-4979-A0A7-9B9D48AD1CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86057C4-262C-4979-A0A7-9B9D48AD1CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86057C4-262C-4979-A0A7-9B9D48AD1CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86057C4-262C-4979-A0A7-9B9D48AD1CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90273F9-02B7-4777-872C-4B92A39C7FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90273F9-02B7-4777-872C-4B92A39C7FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90273F9-02B7-4777-872C-4B92A39C7FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90273F9-02B7-4777-872C-4B92A39C7FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

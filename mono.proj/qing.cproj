@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{423CB8B7-6147-4F71-AAB2-458FA3076E3D}</ProjectGuid>
+    <Compiler>
+      <Compiler ctype="GppCompiler" />
+    </Compiler>
+    <Language>CPP</Language>
+    <Target>Bin</Target>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <OutputName>qing</OutputName>
+    <CompileTarget>StaticLibrary</CompileTarget>
+    <DefineSymbols>DEBUG MONODEVELOP</DefineSymbols>
+    <SourceDirectory>.</SourceDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <OutputName>qing</OutputName>
+    <CompileTarget>StaticLibrary</CompileTarget>
+    <OptimizationLevel>3</OptimizationLevel>
+    <DefineSymbols>MONODEVELOP</DefineSymbols>
+    <SourceDirectory>.</SourceDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="include\" />
+    <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\qing\define.hpp">
+      <Link>include\qing\define.hpp</Link>
+    </None>
+    <None Include="..\include\qing\common\Message.hpp">
+      <Link>include\qing\common\Message.hpp</Link>
+    </None>
+    <None Include="..\include\qing\common\protobuf.hpp">
+      <Link>include\qing\common\protobuf.hpp</Link>
+    </None>
+    <None Include="..\include\qing\common\singleton.h">
+      <Link>include\qing\common\singleton.h</Link>
+    </None>
+    <None Include="..\include\qing\http\define.hpp">
+      <Link>include\qing\http\define.hpp</Link>
+    </None>
+    <None Include="..\include\qing\http\http.hpp">
+      <Link>include\qing\http\http.hpp</Link>
+    </None>
+    <None Include="..\include\qing\http\http_client.hpp">
+      <Link>include\qing\http\http_client.hpp</Link>
+    </None>
+    <None Include="..\include\qing\http\http_connection.hpp">
+      <Link>include\qing\http\http_connection.hpp</Link>
+    </None>
+    <None Include="..\include\qing\http\http_request.hpp">
+      <Link>include\qing\http\http_request.hpp</Link>
+    </None>
+    <None Include="..\include\qing\http\http_response.hpp">
+      <Link>include\qing\http\http_response.hpp</Link>
+    </None>
+    <None Include="..\include\qing\http\http_server.hpp">
+      <Link>include\qing\http\http_server.hpp</Link>
+    </None>
+    <None Include="..\include\qing\http\http_util.hpp">
+      <Link>include\qing\http\http_util.hpp</Link>
+    </None>
+    <None Include="..\include\qing\json\autolink.h">
+      <Link>include\qing\json\autolink.h</Link>
+    </None>
+    <None Include="..\include\qing\json\config.h">
+      <Link>include\qing\json\config.h</Link>
+    </None>
+    <None Include="..\include\qing\json\features.h">
+      <Link>include\qing\json\features.h</Link>
+    </None>
+    <None Include="..\include\qing\json\forwards.h">
+      <Link>include\qing\json\forwards.h</Link>
+    </None>
+    <None Include="..\include\qing\json\json.h">
+      <Link>include\qing\json\json.h</Link>
+    </None>
+    <None Include="..\include\qing\json\json_batchallocator.h">
+      <Link>include\qing\json\json_batchallocator.h</Link>
+    </None>
+    <None Include="..\include\qing\json\json_internalarray.inl">
+      <Link>include\qing\json\json_internalarray.inl</Link>
+    </None>
+    <None Include="..\include\qing\json\json_internalmap.inl">
+      <Link>include\qing\json\json_internalmap.inl</Link>
+    </None>
+    <None Include="..\include\qing\json\json_reader.cpp">
+      <Link>include\qing\json\json_reader.cpp</Link>
+    </None>
+    <None Include="..\include\qing\json\json_value.cpp">
+      <Link>include\qing\json\json_value.cpp</Link>
+    </None>
+    <None Include="..\include\qing\json\json_valueiterator.inl">
+      <Link>include\qing\json\json_valueiterator.inl</Link>
+    </None>
+    <None Include="..\include\qing\json\json_writer.cpp">
+      <Link>include\qing\json\json_writer.cpp</Link>
+    </None>
+    <None Include="..\include\qing\json\reader.h">
+      <Link>include\qing\json\reader.h</Link>
+    </None>
+    <None Include="..\include\qing\json\sconscript">
+      <Link>include\qing\json\sconscript</Link>
+    </None>
+    <None Include="..\include\qing\json\value.h">
+      <Link>include\qing\json\value.h</Link>
+    </None>
+    <None Include="..\include\qing\json\writer.h">
+      <Link>include\qing\json\writer.h</Link>
+    </None>
+    <None Include="..\include\qing\log\datefilelogger.hpp">
+      <Link>include\qing\log\datefilelogger.hpp</Link>
+    </None>
+    <None Include="..\include\qing\log\define.hpp">
+      <Link>include\qing\log\define.hpp</Link>
+    </None>
+    <None Include="..\include\qing\log\log.hpp">
+      <Link>include\qing\log\log.hpp</Link>
+    </None>
+    <None Include="..\include\qing\log\logdispatcher.hpp">
+      <Link>include\qing\log\logdispatcher.hpp</Link>
+    </None>
+    <None Include="..\include\qing\log\logger.hpp">
+      <Link>include\qing\log\logger.hpp</Link>
+    </None>
+    <None Include="..\include\qing\log\logpriority.hpp">
+      <Link>include\qing\log\logpriority.hpp</Link>
+    </None>
+    <None Include="..\include\qing\log\nulllogger.hpp">
+      <Link>include\qing\log\nulllogger.hpp</Link>
+    </None>
+    <None Include="..\include\qing\mongo\define.hpp">
+      <Link>include\qing\mongo\define.hpp</Link>
+    </None>
+    <None Include="..\include\qing\mongo\mongo.hpp">
+      <Link>include\qing\mongo\mongo.hpp</Link>
+    </None>
+    <None Include="..\include\qing\mongo\mongo_conn.hpp">
+      <Link>include\qing\mongo\mongo_conn.hpp</Link>
+    </None>
+    <None Include="..\include\qing\mongo\mongo_param_type.hpp">
+      <Link>include\qing\mongo\mongo_param_type.hpp</Link>
+    </None>
+    <None Include="..\include\qing\mongo\mongo_struct_base.hpp">
+      <Link>include\qing\mongo\mongo_struct_base.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\acceptor.hpp">
+      <Link>include\qing\net\acceptor.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\acceptor_epoll.hpp">
+      <Link>include\qing\net\acceptor_epoll.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\acceptor_iocp.hpp">
+      <Link>include\qing\net\acceptor_iocp.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\acceptor_kqueue.hpp">
+      <Link>include\qing\net\acceptor_kqueue.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\address.hpp">
+      <Link>include\qing\net\address.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\buffer.hpp">
+      <Link>include\qing\net\buffer.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\define.hpp">
+      <Link>include\qing\net\define.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\event_handler.hpp">
+      <Link>include\qing\net\event_handler.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\message_box.hpp">
+      <Link>include\qing\net\message_box.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\message_worker.hpp">
+      <Link>include\qing\net\message_worker.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\net.hpp">
+      <Link>include\qing\net\net.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\net_util.hpp">
+      <Link>include\qing\net\net_util.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\poller.hpp">
+      <Link>include\qing\net\poller.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\poller_epoll.hpp">
+      <Link>include\qing\net\poller_epoll.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\poller_iocp.hpp">
+      <Link>include\qing\net\poller_iocp.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\poller_kqueue.hpp">
+      <Link>include\qing\net\poller_kqueue.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\socket_data_mgr.hpp">
+      <Link>include\qing\net\socket_data_mgr.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\tcp_client.hpp">
+      <Link>include\qing\net\tcp_client.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\tcp_connection.hpp">
+      <Link>include\qing\net\tcp_connection.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\tcp_server.hpp">
+      <Link>include\qing\net\tcp_server.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\tcp_socket.hpp">
+      <Link>include\qing\net\tcp_socket.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\tcp_socket_epoll.hpp">
+      <Link>include\qing\net\tcp_socket_epoll.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\tcp_socket_iocp.hpp">
+      <Link>include\qing\net\tcp_socket_iocp.hpp</Link>
+    </None>
+    <None Include="..\include\qing\net\tcp_socket_kqueue.hpp">
+      <Link>include\qing\net\tcp_socket_kqueue.hpp</Link>
+    </None>
+    <None Include="..\include\qing\parallel\any.hpp">
+      <Link>include\qing\parallel\any.hpp</Link>
+    </None>
+    <None Include="..\include\qing\parallel\parallel.hpp">
+      <Link>include\qing\parallel\parallel.hpp</Link>
+    </None>
+    <None Include="..\include\qing\parallel\parallel_algrithm.hpp">
+      <Link>include\qing\parallel\parallel_algrithm.hpp</Link>
+    </None>
+    <None Include="..\include\qing\parallel\task.hpp">
+      <Link>include\qing\parallel\task.hpp</Link>
+    </None>
+    <None Include="..\include\qing\parallel\task_group.hpp">
+      <Link>include\qing\parallel\task_group.hpp</Link>
+    </None>
+    <None Include="..\include\qing\parallel\variant.hpp">
+      <Link>include\qing\parallel\variant.hpp</Link>
+    </None>
+    <None Include="..\include\qing\parallel\when_all_any.hpp">
+      <Link>include\qing\parallel\when_all_any.hpp</Link>
+    </None>
+    <None Include="..\include\qing\util\atomicops.h">
+      <Link>include\qing\util\atomicops.h</Link>
+    </None>
+    <None Include="..\include\qing\util\base64.h">
+      <Link>include\qing\util\base64.h</Link>
+    </None>
+    <None Include="..\include\qing\util\logger.hpp">
+      <Link>include\qing\util\logger.hpp</Link>
+    </None>
+    <None Include="..\include\qing\util\macros.h">
+      <Link>include\qing\util\macros.h</Link>
+    </None>
+    <None Include="..\include\qing\util\readerwriterqueue.h">
+      <Link>include\qing\util\readerwriterqueue.h</Link>
+    </None>
+    <None Include="..\include\qing\util\time_engine.h">
+      <Link>include\qing\util\time_engine.h</Link>
+    </None>
+    <None Include="..\include\qing\util\timer.hpp">
+      <Link>include\qing\util\timer.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\define.hpp">
+      <Link>include\qing\xml\define.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml.hpp">
+      <Link>include\qing\xml\xml.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_attribute.hpp">
+      <Link>include\qing\xml\xml_attribute.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_comment.hpp">
+      <Link>include\qing\xml\xml_comment.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_declaration.hpp">
+      <Link>include\qing\xml\xml_declaration.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_document.hpp">
+      <Link>include\qing\xml\xml_document.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_element.hpp">
+      <Link>include\qing\xml\xml_element.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_handle.hpp">
+      <Link>include\qing\xml\xml_handle.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_node.hpp">
+      <Link>include\qing\xml\xml_node.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_printer.hpp">
+      <Link>include\qing\xml\xml_printer.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_text.hpp">
+      <Link>include\qing\xml\xml_text.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_unknown.hpp">
+      <Link>include\qing\xml\xml_unknown.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_util.hpp">
+      <Link>include\qing\xml\xml_util.hpp</Link>
+    </None>
+    <None Include="..\include\qing\xml\xml_visitor.hpp">
+      <Link>include\qing\xml\xml_visitor.hpp</Link>
+    </None>
+    <None Include="..\src\http\http.cpp">
+      <Link>src\http\http.cpp</Link>
+    </None>
+    <None Include="..\src\http\http_client.cpp">
+      <Link>src\http\http_client.cpp</Link>
+    </None>
+    <None Include="..\src\http\http_connection.cpp">
+      <Link>src\http\http_connection.cpp</Link>
+    </None>
+    <None Include="..\src\http\http_server.cpp">
+      <Link>src\http\http_server.cpp</Link>
+    </None>
+    <None Include="..\src\http\http_util.cpp">
+      <Link>src\http\http_util.cpp</Link>
+    </None>
+    <None Include="..\src\log\datefilelogger.cpp">
+      <Link>src\log\datefilelogger.cpp</Link>
+    </None>
+    <None Include="..\src\log\logdispatcher.cpp">
+      <Link>src\log\logdispatcher.cpp</Link>
+    </None>
+    <None Include="..\src\log\logger.cpp">
+      <Link>src\log\logger.cpp</Link>
+    </None>
+    <None Include="..\src\log\logpriority.cpp">
+      <Link>src\log\logpriority.cpp</Link>
+    </None>
+    <None Include="..\src\log\nulllogger.cpp">
+      <Link>src\log\nulllogger.cpp</Link>
+    </None>
+    <None Include="..\src\net\acceptor.cpp">
+      <Link>src\net\acceptor.cpp</Link>
+    </None>
+    <None Include="..\src\net\acceptor_epoll.cpp">
+      <Link>src\net\acceptor_epoll.cpp</Link>
+    </None>
+    <None Include="..\src\net\acceptor_iocp.cpp">
+      <Link>src\net\acceptor_iocp.cpp</Link>
+    </None>
+    <None Include="..\src\net\acceptor_kqueue.cpp">
+      <Link>src\net\acceptor_kqueue.cpp</Link>
+    </None>
+    <None Include="..\src\net\buffer.cpp">
+      <Link>src\net\buffer.cpp</Link>
+    </None>
+    <None Include="..\src\net\event_handler.cpp">
+      <Link>src\net\event_handler.cpp</Link>
+    </None>
+    <None Include="..\src\net\message_box.cpp">
+      <Link>src\net\message_box.cpp</Link>
+    </None>
+    <None Include="..\src\net\message_worker.cpp">
+      <Link>src\net\message_worker.cpp</Link>
+    </None>
+    <None Include="..\src\net\net_util.cpp">
+      <Link>src\net\net_util.cpp</Link>
+    </None>
+    <None Include="..\src\net\poller.cpp">
+      <Link>src\net\poller.cpp</Link>
+    </None>
+    <None Include="..\src\net\poller_epoll.cpp">
+      <Link>src\net\poller_epoll.cpp</Link>
+    </None>
+    <None Include="..\src\net\poller_iocp.cpp">
+      <Link>src\net\poller_iocp.cpp</Link>
+    </None>
+    <None Include="..\src\net\poller_kqueue.cpp">
+      <Link>src\net\poller_kqueue.cpp</Link>
+    </None>
+    <None Include="..\src\net\socket_data_mgr.cpp">
+      <Link>src\net\socket_data_mgr.cpp</Link>
+    </None>
+    <None Include="..\src\net\tcp_client.cpp">
+      <Link>src\net\tcp_client.cpp</Link>
+    </None>
+    <None Include="..\src\net\tcp_connection.cpp">
+      <Link>src\net\tcp_connection.cpp</Link>
+    </None>
+    <None Include="..\src\net\tcp_server.cpp">
+      <Link>src\net\tcp_server.cpp</Link>
+    </None>
+    <None Include="..\src\net\tcp_socket.cpp">
+      <Link>src\net\tcp_socket.cpp</Link>
+    </None>
+    <None Include="..\src\net\tcp_socket_epoll.cpp">
+      <Link>src\net\tcp_socket_epoll.cpp</Link>
+    </None>
+    <None Include="..\src\net\tcp_socket_iocp.cpp">
+      <Link>src\net\tcp_socket_iocp.cpp</Link>
+    </None>
+    <None Include="..\src\net\tcp_socket_kqueue.cpp">
+      <Link>src\net\tcp_socket_kqueue.cpp</Link>
+    </None>
+    <None Include="..\src\util\base64.cpp">
+      <Link>src\util\base64.cpp</Link>
+    </None>
+    <None Include="..\src\util\logger.cpp">
+      <Link>src\util\logger.cpp</Link>
+    </None>
+    <None Include="..\src\util\time_engine.cpp">
+      <Link>src\util\time_engine.cpp</Link>
+    </None>
+    <None Include="..\src\util\timer.cpp">
+      <Link>src\util\timer.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml.cpp">
+      <Link>src\xml\xml.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_attribute.cpp">
+      <Link>src\xml\xml_attribute.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_comment.cpp">
+      <Link>src\xml\xml_comment.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_declaration.cpp">
+      <Link>src\xml\xml_declaration.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_document.cpp">
+      <Link>src\xml\xml_document.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_element.cpp">
+      <Link>src\xml\xml_element.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_node.cpp">
+      <Link>src\xml\xml_node.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_printer.cpp">
+      <Link>src\xml\xml_printer.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_text.cpp">
+      <Link>src\xml\xml_text.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_unknown.cpp">
+      <Link>src\xml\xml_unknown.cpp</Link>
+    </None>
+    <None Include="..\src\xml\xml_util.cpp">
+      <Link>src\xml\xml_util.cpp</Link>
+    </None>
+  </ItemGroup>
+</Project>

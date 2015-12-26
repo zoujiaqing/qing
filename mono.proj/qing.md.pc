@@ -1,0 +1,5 @@
+Name: qing
+Description: 
+Version: 0.1
+Libs: -L"/Users/zoujiaqing/Projects/qing1/monobuild/bin/Debug" -lqing
+Cflags: -I"/Users/zoujiaqing/Projects/qing1/include/qing" -I"/Users/zoujiaqing/Projects/qing1/include/qing/common" -I"/Users/zoujiaqing/Projects/qing1/include/qing/http" -I"/Users/zoujiaqing/Projects/qing1/include/qing/json" -I"/Users/zoujiaqing/Projects/qing1/include/qing/log" -I"/Users/zoujiaqing/Projects/qing1/include/qing/mongo" -I"/Users/zoujiaqing/Projects/qing1/include/qing/net" -I"/Users/zoujiaqing/Projects/qing1/include/qing/parallel" -I"/Users/zoujiaqing/Projects/qing1/include/qing/util" -I"/Users/zoujiaqing/Projects/qing1/include/qing/xml"

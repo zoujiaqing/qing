@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="qing.cproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../include/qing/define.hpp">
+    <Files>
+      <File FileName="../include/qing/define.hpp" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="qing" expanded="True">
+            <Node name="qing" expanded="True" selected="True" />
+            <Node name="TCPClient" expanded="True" />
+            <Node name="TCPServer" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

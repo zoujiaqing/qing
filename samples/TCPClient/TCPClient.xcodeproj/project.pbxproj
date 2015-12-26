@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051CC66E19010EEE00718D2A /* acceptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65619010EEE00718D2A /* acceptor.cpp */; };
+		051CC66F19010EEE00718D2A /* buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65719010EEE00718D2A /* buffer.cpp */; };
+		051CC67019010EEE00718D2A /* event_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65819010EEE00718D2A /* event_handler.cpp */; };
+		051CC67119010EEE00718D2A /* message_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65919010EEE00718D2A /* message_handler.cpp */; };
+		051CC67219010EEE00718D2A /* message_worker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65A19010EEE00718D2A /* message_worker.cpp */; };
+		051CC67319010EEE00718D2A /* poller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65B19010EEE00718D2A /* poller.cpp */; };
+		051CC67419010EEE00718D2A /* tcp_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65C19010EEE00718D2A /* tcp_client.cpp */; };
+		051CC67519010EEE00718D2A /* tcp_connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65D19010EEE00718D2A /* tcp_connection.cpp */; };
+		051CC67619010EEE00718D2A /* tcp_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65E19010EEE00718D2A /* tcp_server.cpp */; };
+		051CC67719010EEE00718D2A /* tcp_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC65F19010EEE00718D2A /* tcp_socket.cpp */; };
+		051CC67819010EEE00718D2A /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC66119010EEE00718D2A /* logger.cpp */; };
+		051CC68C19010F3900718D2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 051CC68B19010F3900718D2A /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		051CC62619010EBC00718D2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		051CC62819010EBC00718D2A /* TCPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		051CC65619010EEE00718D2A /* acceptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = acceptor.cpp; sourceTree = "<group>"; };
+		051CC65719010EEE00718D2A /* buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = buffer.cpp; sourceTree = "<group>"; };
+		051CC65819010EEE00718D2A /* event_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event_handler.cpp; sourceTree = "<group>"; };
+		051CC65919010EEE00718D2A /* message_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = message_handler.cpp; sourceTree = "<group>"; };
+		051CC65A19010EEE00718D2A /* message_worker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = message_worker.cpp; sourceTree = "<group>"; };
+		051CC65B19010EEE00718D2A /* poller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = poller.cpp; sourceTree = "<group>"; };
+		051CC65C19010EEE00718D2A /* tcp_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_client.cpp; sourceTree = "<group>"; };
+		051CC65D19010EEE00718D2A /* tcp_connection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_connection.cpp; sourceTree = "<group>"; };
+		051CC65E19010EEE00718D2A /* tcp_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_server.cpp; sourceTree = "<group>"; };
+		051CC65F19010EEE00718D2A /* tcp_socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_socket.cpp; sourceTree = "<group>"; };
+		051CC66119010EEE00718D2A /* logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logger.cpp; sourceTree = "<group>"; };
+		051CC67B19010F1700718D2A /* define.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = define.hpp; path = ../../../include/qing/define.hpp; sourceTree = "<group>"; };
+		051CC67D19010F1700718D2A /* acceptor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = acceptor.hpp; sourceTree = "<group>"; };
+		051CC67E19010F1700718D2A /* address.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = address.hpp; sourceTree = "<group>"; };
+		051CC67F19010F1700718D2A /* buffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = buffer.hpp; sourceTree = "<group>"; };
+		051CC68019010F1700718D2A /* event_handler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = event_handler.hpp; sourceTree = "<group>"; };
+		051CC68119010F1700718D2A /* message_handler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = message_handler.hpp; sourceTree = "<group>"; };
+		051CC68219010F1700718D2A /* message_worker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = message_worker.hpp; sourceTree = "<group>"; };
+		051CC68319010F1700718D2A /* net.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = net.hpp; sourceTree = "<group>"; };
+		051CC68419010F1700718D2A /* poller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poller.hpp; sourceTree = "<group>"; };
+		051CC68519010F1700718D2A /* tcp_client.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_client.hpp; sourceTree = "<group>"; };
+		051CC68619010F1700718D2A /* tcp_connection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_connection.hpp; sourceTree = "<group>"; };
+		051CC68719010F1700718D2A /* tcp_server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_server.hpp; sourceTree = "<group>"; };
+		051CC68819010F1700718D2A /* tcp_socket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_socket.hpp; sourceTree = "<group>"; };
+		051CC68A19010F1700718D2A /* logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = logger.hpp; sourceTree = "<group>"; };
+		051CC68B19010F3900718D2A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051CC62519010EBC00718D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051CC61F19010EBC00718D2A = {
+			isa = PBXGroup;
+			children = (
+				051CC62A19010EBC00718D2A /* TCPClient */,
+				051CC62919010EBC00718D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051CC62919010EBC00718D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051CC62819010EBC00718D2A /* TCPClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051CC62A19010EBC00718D2A /* TCPClient */ = {
+			isa = PBXGroup;
+			children = (
+				051CC68B19010F3900718D2A /* main.cpp */,
+				051CC63519010EDD00718D2A /* source files */,
+				051CC63419010ED400718D2A /* header files */,
+			);
+			path = TCPClient;
+			sourceTree = "<group>";
+		};
+		051CC63419010ED400718D2A /* header files */ = {
+			isa = PBXGroup;
+			children = (
+				051CC67B19010F1700718D2A /* define.hpp */,
+				051CC67C19010F1700718D2A /* net */,
+				051CC68919010F1700718D2A /* util */,
+			);
+			name = "header files";
+			sourceTree = "<group>";
+		};
+		051CC63519010EDD00718D2A /* source files */ = {
+			isa = PBXGroup;
+			children = (
+				051CC65519010EEE00718D2A /* net */,
+				051CC66019010EEE00718D2A /* util */,
+			);
+			name = "source files";
+			sourceTree = "<group>";
+		};
+		051CC65519010EEE00718D2A /* net */ = {
+			isa = PBXGroup;
+			children = (
+				051CC65619010EEE00718D2A /* acceptor.cpp */,
+				051CC65719010EEE00718D2A /* buffer.cpp */,
+				051CC65819010EEE00718D2A /* event_handler.cpp */,
+				051CC65919010EEE00718D2A /* message_handler.cpp */,
+				051CC65A19010EEE00718D2A /* message_worker.cpp */,
+				051CC65B19010EEE00718D2A /* poller.cpp */,
+				051CC65C19010EEE00718D2A /* tcp_client.cpp */,
+				051CC65D19010EEE00718D2A /* tcp_connection.cpp */,
+				051CC65E19010EEE00718D2A /* tcp_server.cpp */,
+				051CC65F19010EEE00718D2A /* tcp_socket.cpp */,
+			);
+			name = net;
+			path = ../../../src/net;
+			sourceTree = "<group>";
+		};
+		051CC66019010EEE00718D2A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				051CC66119010EEE00718D2A /* logger.cpp */,
+			);
+			name = util;
+			path = ../../../src/util;
+			sourceTree = "<group>";
+		};
+		051CC67C19010F1700718D2A /* net */ = {
+			isa = PBXGroup;
+			children = (
+				051CC67D19010F1700718D2A /* acceptor.hpp */,
+				051CC67E19010F1700718D2A /* address.hpp */,
+				051CC67F19010F1700718D2A /* buffer.hpp */,
+				051CC68019010F1700718D2A /* event_handler.hpp */,
+				051CC68119010F1700718D2A /* message_handler.hpp */,
+				051CC68219010F1700718D2A /* message_worker.hpp */,
+				051CC68319010F1700718D2A /* net.hpp */,
+				051CC68419010F1700718D2A /* poller.hpp */,
+				051CC68519010F1700718D2A /* tcp_client.hpp */,
+				051CC68619010F1700718D2A /* tcp_connection.hpp */,
+				051CC68719010F1700718D2A /* tcp_server.hpp */,
+				051CC68819010F1700718D2A /* tcp_socket.hpp */,
+			);
+			name = net;
+			path = ../../../include/qing/net;
+			sourceTree = "<group>";
+		};
+		051CC68919010F1700718D2A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				051CC68A19010F1700718D2A /* logger.hpp */,
+			);
+			name = util;
+			path = ../../../include/qing/util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051CC62719010EBC00718D2A /* TCPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051CC63119010EBC00718D2A /* Build configuration list for PBXNativeTarget "TCPClient" */;
+			buildPhases = (
+				051CC62419010EBC00718D2A /* Sources */,
+				051CC62519010EBC00718D2A /* Frameworks */,
+				051CC62619010EBC00718D2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPClient;
+			productName = TCPClient;
+			productReference = 051CC62819010EBC00718D2A /* TCPClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051CC62019010EBC00718D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 051CC62319010EBC00718D2A /* Build configuration list for PBXProject "TCPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 051CC61F19010EBC00718D2A;
+			productRefGroup = 051CC62919010EBC00718D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051CC62719010EBC00718D2A /* TCPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051CC62419010EBC00718D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051CC66F19010EEE00718D2A /* buffer.cpp in Sources */,
+				051CC67219010EEE00718D2A /* message_worker.cpp in Sources */,
+				051CC68C19010F3900718D2A /* main.cpp in Sources */,
+				051CC67619010EEE00718D2A /* tcp_server.cpp in Sources */,
+				051CC67819010EEE00718D2A /* logger.cpp in Sources */,
+				051CC67019010EEE00718D2A /* event_handler.cpp in Sources */,
+				051CC67319010EEE00718D2A /* poller.cpp in Sources */,
+				051CC67419010EEE00718D2A /* tcp_client.cpp in Sources */,
+				051CC67119010EEE00718D2A /* message_handler.cpp in Sources */,
+				051CC66E19010EEE00718D2A /* acceptor.cpp in Sources */,
+				051CC67519010EEE00718D2A /* tcp_connection.cpp in Sources */,
+				051CC67719010EEE00718D2A /* tcp_socket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		051CC62F19010EBC00718D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/zoujiaqing/Projects/qing/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		051CC63019010EBC00718D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/zoujiaqing/Projects/qing/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		051CC63219010EBC00718D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		051CC63319010EBC00718D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051CC62319010EBC00718D2A /* Build configuration list for PBXProject "TCPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051CC62F19010EBC00718D2A /* Debug */,
+				051CC63019010EBC00718D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051CC63119010EBC00718D2A /* Build configuration list for PBXNativeTarget "TCPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051CC63219010EBC00718D2A /* Debug */,
+				051CC63319010EBC00718D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051CC62019010EBC00718D2A /* Project object */;
+}
